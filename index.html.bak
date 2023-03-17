@@ -2,13 +2,23 @@
 <html>
 
 <head>
-	<link href="styleSheets/style.css" type="text/css">
-	<link href="styleSheets/styleSideBar.css" type="text/css">
+	<link href="styleSheets/style.css" rel="stylesheet" type="text/css">
+	<link href="styleSheets/styleSideBar.css" rel="stylesheet" type="text/css">
 	<script src="script.js"></script>
+	<title>Binary Calculator</title>
 </head>
 
 <body>
-	
+	<div id="mySideBar" class="sideBar">
+		<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+	</div>
+
+	<div id="main">
+		<button class="openbtn" onclick="openNav()">☰</button>  
+		<h1 class="textCenter">Place Holder</h1>
+		<br>
+		<h2 class="textCenter">Instructions</h2>		
+	</div>
 </body>
 
 </html>

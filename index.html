@@ -2,9 +2,10 @@
 <html>
 
 <head>
-	<link href="styleSheets/style.css" type="text/css">
-	<link href="styleSheets/styleSideBar.css" type="text/css">
+	<link href="styleSheets/style.css" rel="stylesheet" type="text/css">
+	<link href="styleSheets/styleSideBar.css" rel="stylesheet" type="text/css">
 	<script src="script.js"></script>
+	<title>Binary Calculator</title>
 </head>
 
 <body>
@@ -14,8 +15,15 @@
 
 	<div id="main">
 		<button class="openbtn" onclick="openNav()">☰</button>  
-		<h1 id="textCenter"></h1>
-		<p></p>
+		<h1 class="textCenter">Place Holder</h1>
+		<br>
+		<h2 class="textCenter">Instructions</h2>
+		<form class="formPage" name="form" autocomplete="on">
+			<div class="formSection">
+				<label>Binary Input:</label>
+				<input type="number" name="binaryInput" class="binaryInput">
+			</div>
+		</form>
 	</div>
 </body>
 
